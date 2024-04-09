@@ -1,4 +1,4 @@
-# Todo_list_terafort
+# Todo_list
 
 This is a Django-based web application for managing todo lists and categories.
 

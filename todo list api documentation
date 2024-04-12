@@ -1,0 +1,93 @@
+# API Documentation
+
+## User Registration
+
+### Register a New User
+To register a new user, send a POST request to the following endpoint:
+http://127.0.0.1:8000/signup
+This endpoint accepts the user's registration details and creates a new user account.
+
+
+## User Authentication
+
+### Obtain Authentication Token
+To authenticate users and obtain an authentication token, send a POST request to the following endpoint:
+http://127.0.0.1:8000/api-token-auth/
+
+
+## Todo Management
+
+### Get All Todos
+To retrieve a list of all todos, send a GET request to the following endpoint:
+http://127.0.0.1:8000/todos/
+
+
+
+### Get Todo Details
+To retrieve details of a specific todo, send a GET request to the following endpoint:
+http://127.0.0.1:8000/todos/<todo_id>/
+Replace `<todo_id>` with the ID of the todo you want to retrieve details for. This endpoint returns the details of the specified todo.
+
+
+
+### Create Todo
+To create a new todo, send a POST request to the following endpoint:
+http://127.0.0.1:8000/todos/
+This endpoint accepts the details of the new todo and creates it.
+
+
+
+## Category Management
+
+### Get All Categories
+To retrieve a list of all categories, send a GET request to the following endpoint:
+
+
+
+This endpoint returns a list of all categories.
+
+### Get Category Details
+To retrieve details of a specific category, send a GET request to the following endpoint:
+http://127.0.0.1:8000/categories/<categories_id>
+
+Replace `<category_id>` with the ID of the category you want to retrieve details for. This endpoint returns the details of the specified category.
+
+
+
+### Create Category
+To create a new category, send a POST request to the following endpoint:
+http://127.0.0.1:8000/categories/
+This endpoint accepts the details of the new category and creates it.
+
+
+**Note:** All endpoints requiring authentication require a valid authentication token to be included in the request headers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

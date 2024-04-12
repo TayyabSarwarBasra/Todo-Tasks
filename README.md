@@ -44,9 +44,13 @@ You can also use a `.env` file to manage environment variables.
 
 1. Start the Django server:
 2. python manage.py runserver
+3. Access the application in your web browser at `http://localhost:8000`.
 
+4. adjust the time when you want to run the celery task
+5. make sure you have installed the Redis server and you can check the the server is activate or not
+6. celery -A Todo_list_terafort worker -l info
+7. celery -A Todo_list_terafort beat -l info
 
-2. Access the application in your web browser at `http://localhost:8000`.
 
 ## Dockerization
 
